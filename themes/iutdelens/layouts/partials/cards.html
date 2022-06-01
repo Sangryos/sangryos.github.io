@@ -1,0 +1,13 @@
+
+<div class="card column is-half is-centered">
+    <div class="card-image">
+        {{ with .Params.images }}
+            <div>
+                <img class="image is-one-third" src="{{ index . 0 }}" />
+            </div>
+        {{ end }}
+    </div>
+    <div class="pl-4 card-content has-text-centered ">
+        <a class="is-size-3 has-text-black is-underlined" href="{{ .Permalink }}">{{ .Title }}</a>
+    </div>
+</div>

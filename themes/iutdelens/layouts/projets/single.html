@@ -1,0 +1,32 @@
+{{ define "main" }}
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">{{ .Title }}</h1>
+                <div class="content has-background-white-ter">
+                    {{ .Content }}
+                    {{ with .Params.images }}
+                    <div>
+                        <img class="image is-one-third" src="{{ index . 1 }}" />
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+{{ with .Site.Params.authorImage }}
+<div class="has-background-white-ter">
+    <img src="{{ . }}" />
+</div>
+{{ end }}
+<p class="has-background-white-ter">
+{{ range $idx, $category := .Params.categories }}
+{{- if ne $idx 0 }}, {{ end }}
+<strong>
+    {{ $category }}
+</strong>
+{{- end }}
+</p>
+{{ end }}

@@ -1,0 +1,16 @@
+# Template BUT1 pour l'IUT de Lens 
+# Source: https://github.com/vimux/blank  
+
+name = "IUT de Lens"
+license = "MIT"
+licenselink = "https://gitlab.univ-artois.fr/ppp/hugo/LICENSE"
+description = "Un thème développé pour les étudiants en BUT1 de l'IUT de Lens"
+homepage = "http://localhost/"
+tags = []
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Mickaël Masquelin"
+  homepage = "https://www.cristal.univ-lille.fr/profil/masqueli/"
+

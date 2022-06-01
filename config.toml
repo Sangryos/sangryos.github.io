@@ -1,0 +1,21 @@
+baseURL = 'https://sangryos.github.io'
+languageCode = 'fr-fr'
+title = 'E-Portfolio Léo Mosse'
+theme= 'iutdelens'
+paginate= 2
+
+[[menu.main]]
+name= "Projets"
+url = "/projets"
+
+[[menu.main]]
+    name = "CV"
+    url = "/cv"
+
+[[menu.footer]]
+name = "À propos"
+url = "/apropos"
+
+[params]
+author = "Moi"
+authorImage = "/images/mon_avatar.png"
