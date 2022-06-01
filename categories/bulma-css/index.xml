@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulma CSS on E-Portfolio Léo Mosse</title>
+    <link>https://sangryos.github.io/categories/bulma-css/</link>
+    <description>Recent content in Bulma CSS on E-Portfolio Léo Mosse</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 04 May 2022 16:48:24 +0200</lastBuildDate><atom:link href="https://sangryos.github.io/categories/bulma-css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E-Portfolio avec un CMS</title>
+      <link>https://sangryos.github.io/projets/projet1/</link>
+      <pubDate>Wed, 04 May 2022 16:48:24 +0200</pubDate>
+      
+      <guid>https://sangryos.github.io/projets/projet1/</guid>
+      <description>Vous vous trouvez actuellement sur ce E-Portfolio, je vous laisse le visiter ! Il a été réalisé à l&amp;rsquo;aide sur CMS Hugo et du framework CSS Bulma ! </description>
+    </item>
+    
+  </channel>
+</rss>

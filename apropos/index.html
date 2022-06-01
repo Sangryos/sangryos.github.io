@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+<link rel="stylesheet" href="/css/style.css" /><body><header>
+    <nav class="navbar" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/" title="home" class="navbar-item">
+                    <span class="logo"><h1>E-Portfolio Léo Mosse</h1></span>
+                </a>
+                
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+                
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    
+                    <a href="/cv" class="navbar-item">CV</a>
+                    
+                    <a href="/projets" class="navbar-item">Projets</a>
+                    
+                </div>
+                <div class="navbar-end">
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script>
+        $(document).ready(function () {
+            $(".navbar-burger").click(function () {
+                $(".navbar-burger").toggleClass("is-active");
+                $(".navbar-menu").toggleClass("is-active");
+            })
+        })
+    </script>
+</header>
+<div id="content">
+<section class="section">
+    <article>
+        <div class="columns is-centered">
+            <div class="column max-800px">
+                <h1 class="title is-1">À propos</h1>
+                <div class="content">
+                    <h1 id="quoi-mettre-dans-cette-page-au-final-">Quoi mettre dans cette page, au final ?</h1>
+
+                </div>
+            </div>
+        </div>
+    </article>
+</section>
+
+        </div><footer class="footer has-background-grey-lighter mt-2">
+    <div class="container">
+        <div class="columns has-text-centered">
+            
+                <div class="column is-narrow">
+                    <a href="/apropos" class="">À propos</a>
+                </div>
+            
+        </div>
+    </div>
+</footer>
+</body>
+</html>
