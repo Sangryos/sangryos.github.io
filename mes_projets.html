@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Mes projets</title>
+</head>
+<body class="bg-yellow-50">
+<header>
+    <div class="flex justify-center flex-row gap-x-4 text-center items-center bg-yellow-100 pt-2 pb-2">
+        
+        <div class="absolute left-4 text-xl">
+            E-Portfolio
+        </div>
+
+        <div class="flex justify-center bg-green-200 w-32 h-7 ">
+            <a class="object-cover  w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white" href="index.html">Accueil</a>
+        </div>
+        
+        <div class="flex justify-center bg-green-200 w-32 h-7">
+            <a class="object-cover w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="mes_projets.html"> Mes projets</a>
+        </div>
+        
+        <div class="flex justify-center bg-green-200 w-32 h-7">
+            <a class="object-cover w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="cv.html" >CV</a>
+        </div>
+
+
+    </div>  
+</header>
+
+
+    <div class="flex flex-col flex-wrap gap-y-6 text-lg mt-8">
+        <small>(Passez votre curseur sur l'image pour l'agrandir)</small>
+
+        <div class="flex flex-row">
+            <div>
+                <a href="clikon.html" class="flex flex-col justify-center w-80 
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16">
+                    <img src="images/cursor.png" class="aspect-square max-w-full object-cover">
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white p-2">
+                        Projet 1 : Idle Game (Cliquez moi dessus pour jouer !)
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    Ce projet est un jeu de type "Idle Game", où le but est de commencer à produire quelque chose par le click, puis augmenter la production petit à petit grace à des choses qui vont produire automatiquement. Il est ma porte d'entrée vers le Javascript, avant même d'avoir commmencé à en faire en cours. On y trouve un système de sauvegarde ( Automatique et manuelle ) grace au localstorage. Il est accessible par click sur l'image.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row">
+            <div>
+                <a class="flex flex-col justify-center w-80
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16"> <!-- Element cliquable avec image, disposé en fontion du flex parent. Cet element est lui meme un flex orienté en colonne pour aligner l'image et le nom -->
+                    <img src="images/you_are_here.webp" class="aspect-square max-w-full object-cover"> <!-- Image carrée qui remplit la width de son element parent -->
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white  p-2">
+                        Projet 2 : Ce site !
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    Ce projet n'était à la base pas destiné à être un portfolio, simplement un moyen d'apprendre Tailwind CSS, mais je n'arrivais pas à trouver de but, je ne voulais pas travailler "juste pour apprendre" , je voulais réaliser quelque chose. J'ai donc décidé de tourner le projet en un portfolio me permettant de montrer les différents projets que j'ai pu réaliser.
+                    Un vrai challenge était d'apprendre à gérer le placement des éléments sur la page (avec le module flexbox, simplifié par Tailwind).
+                </p>
+            </div>
+        </div>
+<!-- Fin d'une "carte" -->
+        <div class="flex flex-row">
+            <div>
+                <a class="flex flex-col justify-center w-80 
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16">
+                    <img src="images/julia2-1.png" class="aspect-square max-w-full object-cover"> <!-- Image carrée qui remplit la width de son element parent -->
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white p-2">
+                        Projet 3 : Générateur de Fractales
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    Ce projet ci est le projet le plus compliqué sur lequel j'ai eu la chance de travailler jusqu'alors. En effet, il est le résultat d'une semaine de travail en groupe de 3, à raison de 7h30 à 8 h de travail par jour. Après avoir représenté les nombres complexes, les plans et les suites complexes, notre générateur de fractales nous permet de générer en zoomant sur un point n'importe quelle suite complexe. A côté, on peut voir un ensemle de Julia.
+                    Ce projet a été réalisé en Java, quelque scripts bash ont été créés pour générer des suites d'images en zoomant (comme pour une vidéo de zoom par exemple).
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row">
+            <div>
+                <a class="flex flex-col justify-center w-80 
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16">
+                    <img src="images/projet_pokemon.PNG" class="aspect-square max-w-full object-cover"> <!-- Image carrée qui remplit la width de son element parent -->
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white p-2">
+                        Projet 4 : Pokédex
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    Ce projet PHP Laravel est un CRUD sur le thème de Pokémon, on peut d'abord enregistrer ou se connecter à un compte. On peut ensuite visualiser, créer, éditer des pokémons, changer l'image des pokémons, mais également visualiser depuis quels jeu ils viennent (Relation en base de données).
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row">
+            <div>
+                <a class="flex flex-col justify-center w-80 
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16">
+                    <img src="images/projet_msi.PNG" class="aspect-square max-w-full object-cover"> <!-- Image carrée qui remplit la width de son element parent -->
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white p-2">
+                        Projet 5 : Gestion de températures
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    En groupe de 3, nous avons réalisé un visualiseur de météo en Python Flask. Le but ici était d'utiliser l'API openweather. Pour plusieurs datacenters dans le monde, on pouvait visualiser dans des graphiques générés automatiquement l'évolution de la température afin d'éviter les surchauffes.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-row">
+            <div>
+                <a class="flex flex-col justify-center w-80 
+                 transition-transform ease-in-out hover:scale-150 hover:translate-x-20 hover:translate-y-16">
+                    <img src="images/levelup1.png" class="aspect-square max-w-full object-fit"> <!-- Image carrée qui remplit la width de son element parent -->
+                    <div class="bg-green-200 w-full hover:transition-colors hover:bg-green-400 hover:text-white p-2">
+                        Projet 6 : Exposition d'art
+                    </div>
+                </a>
+            </div>
+            <div class="ml-3 mt-8 mr-3">
+                <p class="pl-1 border-2 border-yellow-300 bg-yellow-200">
+                    Dans le cadre du Marathon du Web, un projet de groupe étalé d'un jour à 8h30 jusqu'au lendemain 17h30, sans pause, j'ai pu réaliser une exposition d'art en collaboration avec 8 autre personnes dont 5 en formation BUT MMI (Métiers du multimédia et de l'internet). Elle contient un système de connexion, une base de données, ainsi que la possibilité d'ajouter des images à une salle d'exposition libre. Ce projet était très enrichissant car il a permit d'être confronté à une autre formation que la nôtre, qui ont une façon de travailler et de voir les choses différente de nous. 
+                </p>
+            </div>
+        </div>
+
+    </div>
+<footer>
+    <div class="mt-28 flex justify-center flex-row gap-x-4 text-center items-center bg-gray-400 pt-2 pb-3">
+        <a class="absolute right-4 hover:transition-colors hover:bg-gray-800 hover:text-white" href="https://www.linkedin.com/in/leo-mosse" target=_blank> Mon LinkedIn</a>
+        Fait à partir de HTML5 ainsi que Tailwind-CSS.
+        
+    </div>
+</footer>
+</body>
+</html>

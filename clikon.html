@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="scripts/script.js"></script>
+    <title>Clikon</title>
+</head>
+<body class="bg-yellow-50" style="text-align: center;">
+<header>
+    <div class="flex justify-center flex-row gap-x-4 text-center items-center bg-yellow-100 pt-2 pb-2">
+        
+        <div class="absolute left-4 text-xl">
+            E-Portfolio
+        </div>
+
+        <div class="flex justify-center bg-green-200 w-32 h-7 ">
+            <a class="object-cover  w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white" href="index.html">Accueil</a>
+        </div>
+        
+        <div class="flex justify-center bg-green-200 w-32 h-7">
+            <a class="object-cover w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="mes_projets.html"> Mes projets</a>
+        </div>
+        
+        <div class="flex justify-center bg-green-200 w-32 h-7">
+            <a class="object-cover w-32 h-7 hover:transition-colors hover:bg-green-400 hover:text-white " href="cv.html" >CV</a>
+        </div>
+
+
+    </div>  
+</header>
+
+    <span>Argent : </span><span id="nbCurrency"></span><br>
+    <span>Argent par seconde: </span><span id="tps"></span><br>
+    
+    <span  class=" border-2 border-black object-cover bg-green-200 hover:transition-colors hover:bg-green-400 hover:text-white">
+        <button id="mainButton">Click moi</button>
+    </span>
+    <br>
+    <span class=" border-2 border-black object-cover bg-green-200 hover:transition-colors hover:bg-green-400 hover:text-white">
+        <button id="saveButton">Save</button>
+    </span>
+
+    <table class="border-2 border-black" style="
+    margin-left: auto;
+    margin-right: auto;">
+        <thead>
+            <tr class="border-2 border-black">
+                <th class="border-2 border-black">
+                    Informations
+                </th>
+                <th class="border-2 border-black">
+                    <button class="object-cover bg-green-200 hover:transition-colors hover:bg-green-400 hover:text-white" id="autoclickButton">Buy Autoclick</button>
+                </th>
+                <th class="border-2 border-black">
+                    <button class="object-cover bg-green-200 hover:transition-colors hover:bg-green-400 hover:text-white" id="lemonButton">Buy Lemon</button>
+                </th>
+
+            </tr>
+        </thead>
+
+        <tbody >
+
+
+        <tr class="border-2 border-black">
+            <td class="border-2 border-black">
+                Prix
+            </td>
+            <td id="prixAutoclick">
+                25
+            </td>
+            <td class="border-2 border-black" id="prixLemon">
+                100
+            </td>
+
+        </tr>
+
+        <tr>
+            <td class="border-2 border-black">
+                Quantite
+            </td>
+            <td class="border-2 border-black" id="nbAutoclick">
+
+            </td>
+            <td id="nbLemon">
+
+            </td>
+
+        </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
